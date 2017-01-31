@@ -1,0 +1,6 @@
+# Generated folders
+dist
+node_modules
+!.bin/**/node_modules
+tests/specifications
+npm-debug.log
