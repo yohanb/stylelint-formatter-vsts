@@ -1,14 +1,14 @@
 {
   "name": "stylelint-formatter-vsts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A StyleLint formatter plugin. StyleLint violations are output nicely in the VSTS build error format.",
   "scripts": {
     "build": "webpack --config webpack.config.js --progress",
     "test": "mocha-webpack --webpack-config webpack.config-test.js \"src/**/*.test.js\""
   },
-  "main": "src\\formatter.js",
+  "main": "src/formatter.js",
   "files": [
-    "src\\formatter.js",
+    "src/formatter.js",
     "LICENSE",
     "README.md"
   ],
